@@ -21,7 +21,7 @@ def save_and_close():
     print("Changes are saved, and connection to Database is closed!")
 
 
-# Input main message
+# Intro msg
 input_message = """
 What do you want to do (kindly type your choice from below!)?\n
 "add" => Add a new Username and ID
@@ -33,10 +33,10 @@ What do you want to do (kindly type your choice from below!)?\n
 "q" => Quit the app\n
 Your Option = """
 
-# Input the option
+# Type the option from intro msg
 user_input = input(input_message).strip().lower()
 
-# Commands list
+# options list
 cmd_list = ["add", "users", "s", "a", "d", "u", "q"]
 
 # Set-up methods on CMD list
